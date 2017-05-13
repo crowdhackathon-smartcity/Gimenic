@@ -51,6 +51,7 @@ namespace Eco2City
                 PicMap.Visible = true;
                 PicStatistics.Visible = true;
                 DescrStat.Visible = true;
+                DMap.Visible = true;
             }
 
             }
@@ -80,16 +81,22 @@ namespace Eco2City
 
         private void PicStatistics_Paint(object sender, PaintEventArgs e)
         {
-            ControlPaint.DrawBorder(e.Graphics, PicStatistics.ClientRectangle, Color.Red, ButtonBorderStyle.Solid);
+            ControlPaint.DrawBorder(e.Graphics, PicStatistics.ClientRectangle, Color.LightGray, ButtonBorderStyle.Solid);
         }
 
         private void PicMap_Paint(object sender, PaintEventArgs e)
         {
-            ControlPaint.DrawBorder(e.Graphics, PicMap.ClientRectangle, Color.Red, ButtonBorderStyle.Solid);
+            ControlPaint.DrawBorder(e.Graphics, PicMap.ClientRectangle, Color.LightGray, ButtonBorderStyle.Solid);
         }
 
-       
+        private void PicMap_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Tag = this;
+            form2.Show(this);
+            Hide();
 
         }
+    }
     }
 

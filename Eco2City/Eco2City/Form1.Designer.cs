@@ -96,6 +96,7 @@
             this.PicMap.TabIndex = 2;
             this.PicMap.TabStop = false;
             this.PicMap.Visible = false;
+            this.PicMap.Click += new System.EventHandler(this.PicMap_Click);
             this.PicMap.Paint += new System.Windows.Forms.PaintEventHandler(this.PicMap_Paint);
             // 
             // PicStatistics
@@ -144,14 +145,6 @@
             this.DMap.TabIndex = 5;
             this.DMap.Text = "View Map";
             this.DMap.Visible = false;
-            // 
-            // VStatTimer
-            // 
-            
-            // 
-            // VMapTimer
-            // 
-            
             // 
             // Form1
             // 

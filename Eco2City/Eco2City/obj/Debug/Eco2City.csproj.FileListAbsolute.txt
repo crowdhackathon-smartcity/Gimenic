@@ -16,3 +16,4 @@ C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\De
 C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.csproj.GenerateResource.Cache
 C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.exe
 C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.pdb
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Form2.resources
