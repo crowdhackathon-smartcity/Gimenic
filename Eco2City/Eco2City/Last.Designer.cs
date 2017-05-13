@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.b3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -41,11 +42,21 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // b3
+            // 
+            this.b3.Location = new System.Drawing.Point(12, 12);
+            this.b3.Name = "b3";
+            this.b3.Size = new System.Drawing.Size(63, 43);
+            this.b3.TabIndex = 1;
+            this.b3.Text = "<-";
+            this.b3.UseVisualStyleBackColor = true;
+            // 
             // Last
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1043, 563);
+            this.Controls.Add(this.b3);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Last";
             this.Text = "EcoCity";
@@ -58,5 +69,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button b3;
     }
 }
