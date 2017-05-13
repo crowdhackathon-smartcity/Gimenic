@@ -31,11 +31,19 @@ namespace Eco2City
         private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 6;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
 
         private void pictureBox2_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 7;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
 
         

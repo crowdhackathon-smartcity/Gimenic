@@ -63,12 +63,6 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
-    </Compile>
     <Compile Include="Kallipoli.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +74,12 @@
     </Compile>
     <Compile Include="Koridallos.Designer.cs">
       <DependentUpon>Koridallos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Last.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Last.Designer.cs">
+      <DependentUpon>Last.cs</DependentUpon>
     </Compile>
     <Compile Include="Nikaia.cs">
       <SubType>Form</SubType>
@@ -104,28 +104,22 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Kallipoli.resx">
       <DependentUpon>Kallipoli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Koridallos.resx">
       <DependentUpon>Koridallos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Last.resx">
+      <DependentUpon>Last.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Nikaia.resx">
       <DependentUpon>Nikaia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Renti.resx">
       <DependentUpon>Renti.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +137,26 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\1.PNG" />
+    <Content Include="Assets\10.PNG" />
+    <Content Include="Assets\11.PNG" />
+    <Content Include="Assets\12.PNG" />
+    <Content Include="Assets\13.PNG" />
+    <Content Include="Assets\14.PNG" />
+    <Content Include="Assets\15.PNG" />
+    <Content Include="Assets\16.PNG" />
+    <Content Include="Assets\17.PNG" />
+    <Content Include="Assets\18.jpg" />
+    <Content Include="Assets\19.jpg" />
+    <Content Include="Assets\2.PNG" />
+    <Content Include="Assets\20.PNG" />
+    <Content Include="Assets\3.PNG" />
+    <Content Include="Assets\4.PNG" />
+    <Content Include="Assets\5.PNG" />
+    <Content Include="Assets\6.PNG" />
+    <Content Include="Assets\7.PNG" />
+    <Content Include="Assets\8.PNG" />
+    <Content Include="Assets\9.PNG" />
     <Content Include="Assets\map.gif" />
     <Content Include="Assets\StatPic.gif" />
     <Content Include="Assets\Νέος φάκελος\10.PNG" />

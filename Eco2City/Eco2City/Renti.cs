@@ -28,42 +28,73 @@ namespace Eco2City
         private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 12;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
 
         private void pictureBox2_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 13;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
 
         private void pictureBox3_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 14;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
 
         private void pictureBox4_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 15;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
 
         private void pictureBox5_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 16;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
 
         private void pictureBox6_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 17;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
 
         private void pictureBox7_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 18;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
 
         private void pictureBox8_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 19;
-            MessageBox.Show(Form1.y.ToString());
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
     }
 }

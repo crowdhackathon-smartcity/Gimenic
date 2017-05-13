@@ -65,6 +65,7 @@
             this.Name = "Eleusina";
             this.Text = "EcoCity";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Eleusina_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

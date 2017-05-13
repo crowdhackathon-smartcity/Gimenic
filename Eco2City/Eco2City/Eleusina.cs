@@ -24,5 +24,14 @@ namespace Eco2City
             form2.Show(this);
             Hide();
         }
+
+        private void Eleusina_MouseUp(object sender, MouseEventArgs e)
+        {
+            Form1.y = 20;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
+        }
     }
 }

@@ -45,26 +45,48 @@ namespace Eco2City
         private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
         {
              Form1.y = 1;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
 
         private void pictureBox2_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 2;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
 
         private void pictureBox3_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 3;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
 
         private void pictureBox4_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 4;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
 
         private void pictureBox5_MouseUp(object sender, MouseEventArgs e)
         {
             Form1.y = 5;
+            Last last = new Last();
+            last.Tag = this;
+            last.Show(this);
+            Hide();
         }
+
+       
     }
 }

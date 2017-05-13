@@ -15,6 +15,8 @@ namespace Eco2City
     {
         static public int y;
         bool fadeflag = false;
+        static public string x;
+        
         public Form1()
         {
             
@@ -99,13 +101,7 @@ namespace Eco2City
 
         }
 
-        private void PicStatistics_Click(object sender, EventArgs e)
-        {
-            Form3 form3 = new Form3();
-            form3.Tag = this;
-            form3.Show(this);
-            Hide();
-        }
+       
     }
     }
 
