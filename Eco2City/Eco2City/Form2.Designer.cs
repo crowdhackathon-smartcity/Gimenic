@@ -56,7 +56,7 @@
             "Ελευσίνα"});
             this.cb1.Location = new System.Drawing.Point(488, 541);
             this.cb1.Name = "cb1";
-            this.cb1.Size = new System.Drawing.Size(269, 21);
+            this.cb1.Size = new System.Drawing.Size(59, 21);
             this.cb1.TabIndex = 0;
             this.cb1.DropDownClosed += new System.EventHandler(this.cb1_DropDownClosed);
             // 
@@ -67,7 +67,7 @@
             this.webBrowser1.Location = new System.Drawing.Point(200, 28);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(1204, 473);
+            this.webBrowser1.Size = new System.Drawing.Size(994, 473);
             this.webBrowser1.TabIndex = 1;
             // 
             // BackFromMaps
@@ -83,7 +83,7 @@
             // ViewSensors
             // 
             this.ViewSensors.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.ViewSensors.Location = new System.Drawing.Point(887, 510);
+            this.ViewSensors.Location = new System.Drawing.Point(887, 407);
             this.ViewSensors.Name = "ViewSensors";
             this.ViewSensors.Size = new System.Drawing.Size(106, 52);
             this.ViewSensors.TabIndex = 9;
@@ -192,7 +192,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1572, 844);
+            this.ClientSize = new System.Drawing.Size(1362, 741);
             this.Controls.Add(this.radioButton8);
             this.Controls.Add(this.radioButton7);
             this.Controls.Add(this.radioButton6);

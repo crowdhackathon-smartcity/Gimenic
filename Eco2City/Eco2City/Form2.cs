@@ -12,7 +12,7 @@ namespace Eco2City
 {
     public partial class Form2 : Form
     {
-        public string x;
+        
         public Form2()
         {
             InitializeComponent();
@@ -23,10 +23,10 @@ namespace Eco2City
 
         private void cb1_DropDownClosed(object sender, EventArgs e)
         {
-             x = cb1.SelectedItem.ToString();
+             Form1.x = cb1.SelectedItem.ToString();
 
 
-            if (x=="Καλλίπολη")
+            if (Form1.x == "Καλλίπολη")
             {
                 {                            
                     try
@@ -61,7 +61,7 @@ namespace Eco2City
                 }
 
             }
-            else if (x=="Νίκαια")
+            else if (Form1.x == "Νίκαια")
             {
                 {
                   try
@@ -88,7 +88,7 @@ namespace Eco2City
 
                 }
             }
-            else if (x=="Κορυδαλλός")
+            else if (Form1.x == "Κορυδαλλός")
             {
                 {
                     try
@@ -116,7 +116,7 @@ namespace Eco2City
 
             }
 
-            else if (x=="Ρέντη")
+            else if (Form1.x == "Ρέντη")
             {
                 {
                     try
@@ -143,7 +143,7 @@ namespace Eco2City
                 }
             }
 
-            else if (x=="Ελευσίνα")
+            else if (Form1.x == "Ελευσίνα")
             {
                 {
                     try
@@ -179,7 +179,7 @@ namespace Eco2City
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (x == "Καλλίπολη")
+            if (Form1.x == "Καλλίπολη")
             {
                 Kallipoli kallipoli = new Kallipoli();
                 kallipoli.Tag = this;
@@ -187,7 +187,7 @@ namespace Eco2City
                 Hide();
             }
 
-            if (x == "Νίκαια")
+            if (Form1.x == "Νίκαια")
             {
                 Nikaia nikaia = new Nikaia();
                 nikaia.Tag = this;
@@ -195,7 +195,7 @@ namespace Eco2City
                 Hide();
             }
 
-            if (x == "Ρέντη")
+            if (Form1.x == "Ρέντη")
             {
                 Renti renti = new Renti();
                 renti.Tag = this;
@@ -204,7 +204,7 @@ namespace Eco2City
             }
 
 
-            if (x == "Κορυδαλλός")
+            if (Form1.x == "Κορυδαλλός")
             {
                 Koridallos koridallos = new Koridallos();
                 koridallos.Tag = this;
@@ -213,7 +213,7 @@ namespace Eco2City
             }
 
 
-            if (x == "Ελευσίνα")
+            if (Form1.x == "Ελευσίνα")
             {
                 Eleusina eleusina = new Eleusina();
                 eleusina.Tag = this;

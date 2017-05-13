@@ -23,3 +23,20 @@ C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\De
 C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Nikaia.resources
 C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Renti.resources
 C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Last.resources
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\bin\Debug\Eco2City.exe.config
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.exe
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.pdb
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\bin\Debug\Eco2City.exe
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\bin\Debug\Eco2City.pdb
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\bin\Debug\MySql.Data.dll
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.csprojResolveAssemblyReference.cache
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Eleusina.resources
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Form1.resources
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Form2.resources
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Kallipoli.resources
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Koridallos.resources
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Last.resources
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Nikaia.resources
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Properties.Resources.resources
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Renti.resources
+C:\Users\erkon\Desktop\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.csproj.GenerateResource.Cache

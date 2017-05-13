@@ -91,7 +91,7 @@
             this.PicMap.Image = ((System.Drawing.Image)(resources.GetObject("PicMap.Image")));
             this.PicMap.Location = new System.Drawing.Point(1061, 220);
             this.PicMap.Name = "PicMap";
-            this.PicMap.Size = new System.Drawing.Size(404, 342);
+            this.PicMap.Size = new System.Drawing.Size(74, 200);
             this.PicMap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicMap.TabIndex = 2;
             this.PicMap.TabStop = false;
@@ -109,12 +109,11 @@
             this.PicStatistics.Location = new System.Drawing.Point(291, 220);
             this.PicStatistics.Margin = new System.Windows.Forms.Padding(0);
             this.PicStatistics.Name = "PicStatistics";
-            this.PicStatistics.Size = new System.Drawing.Size(412, 340);
+            this.PicStatistics.Size = new System.Drawing.Size(82, 198);
             this.PicStatistics.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicStatistics.TabIndex = 3;
             this.PicStatistics.TabStop = false;
             this.PicStatistics.Visible = false;
-            
             this.PicStatistics.Paint += new System.Windows.Forms.PaintEventHandler(this.PicStatistics_Paint);
             // 
             // DescrStat
@@ -151,7 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1692, 883);
+            this.ClientSize = new System.Drawing.Size(1362, 741);
             this.Controls.Add(this.DMap);
             this.Controls.Add(this.DescrStat);
             this.Controls.Add(this.PicStatistics);

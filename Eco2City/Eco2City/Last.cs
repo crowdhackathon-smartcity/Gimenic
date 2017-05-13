@@ -7,15 +7,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using MySql.Data.MySqlClient;
+using System.Data;
 namespace Eco2City
 {
     public partial class Last : Form
     {
         public Last()
       {
+           
             
             InitializeComponent();
+            string val1 = Form1.x;
+            int val2 = Form1.y;
+            string connectionString = "SERVER=localhost;DATABASE=db;UID=root;PASSWORD=1234;";
+            MySqlConnection connection = new MySqlConnection(connectionString);
+            MySqlCommand cmd = new MySqlCommand("select Co2 from db.data, db.info where (info.city=@param_val_1 and info.idsensor=@param_val_2)and info.idsensor=data.idsensor", connection);
+            cmd.Parameters.AddWithValue("@param_val_1", val1);
+            cmd.Parameters.AddWithValue("@param_val_2", val2);
+            connection.Open();
+            DataTable dt = new DataTable();
+
+            dt.Load(cmd.ExecuteReader());
+
+            connection.Close();
+            var rows = dt.AsEnumerable().ToArray();
+            for (int i = 0; i < rows.Length; i++)
+            {
+                var value = rows[i]["Co2"];
+                MessageBox.Show(value.ToString());
+            }
 
             if (Form1.y == 1)
             {
