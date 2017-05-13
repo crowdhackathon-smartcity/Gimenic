@@ -46,7 +46,6 @@ namespace Eco2City
             if (Form1.y == 2)
             {
                 pictureBox1.BackgroundImage = Image.FromFile("2.png");
-
             }
 
             if (Form1.y == 3)

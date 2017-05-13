@@ -75,11 +75,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.kalwsorisma.AutoSize = true;
             this.kalwsorisma.Font = new System.Drawing.Font("Georgia", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.kalwsorisma.Location = new System.Drawing.Point(317, 308);
+            this.kalwsorisma.Location = new System.Drawing.Point(87, 286);
             this.kalwsorisma.Name = "kalwsorisma";
             this.kalwsorisma.Size = new System.Drawing.Size(1148, 72);
             this.kalwsorisma.TabIndex = 1;
-            this.kalwsorisma.Text = "Καλως ορίσατε στην εφαρμογή EcoCity";
+            this.kalwsorisma.Text = "Καλώς ορίσατε στην εφαρμογή EcoCity";
             this.kalwsorisma.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // PicMap
