@@ -43,7 +43,10 @@ namespace Eco2City
                 fadeflag = false;
                 kalwsorisma.Visible = false;
                 KalwsorTimer.Stop();
+                this.BackColor = System.Drawing.Color.DarkSlateGray;
+               
                 PicMap.Visible = true;
+                PicStatistics.Visible = true;
             }
 
             }

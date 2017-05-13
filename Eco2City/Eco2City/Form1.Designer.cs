@@ -35,7 +35,10 @@
             this.geia = new System.Windows.Forms.Label();
             this.kalwsorisma = new System.Windows.Forms.Label();
             this.PicMap = new System.Windows.Forms.PictureBox();
+            this.PicStatistics = new System.Windows.Forms.PictureBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.PicMap)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicStatistics)).BeginInit();
             this.SuspendLayout();
             // 
             // geiaTimer
@@ -90,11 +93,28 @@
             this.PicMap.TabStop = false;
             this.PicMap.Visible = false;
             // 
+            // PicStatistics
+            // 
+            this.PicStatistics.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PicStatistics.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PicStatistics.BackgroundImage")));
+            this.PicStatistics.Image = ((System.Drawing.Image)(resources.GetObject("PicStatistics.Image")));
+            this.PicStatistics.Location = new System.Drawing.Point(291, 220);
+            this.PicStatistics.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            this.PicStatistics.Name = "PicStatistics";
+            this.PicStatistics.Size = new System.Drawing.Size(412, 340);
+            this.PicStatistics.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicStatistics.TabIndex = 3;
+            this.PicStatistics.TabStop = false;
+            this.PicStatistics.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1692, 883);
+            this.Controls.Add(this.PicStatistics);
             this.Controls.Add(this.PicMap);
             this.Controls.Add(this.kalwsorisma);
             this.Controls.Add(this.geia);
@@ -102,6 +122,7 @@
             this.Text = "EcoCity";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.PicMap)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicStatistics)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -113,6 +134,8 @@
         private System.Windows.Forms.Label geia;
         private System.Windows.Forms.Label kalwsorisma;
         private System.Windows.Forms.PictureBox PicMap;
+        private System.Windows.Forms.PictureBox PicStatistics;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 
