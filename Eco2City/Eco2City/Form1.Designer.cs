@@ -33,7 +33,6 @@
             this.KalwsorTimer = new System.Windows.Forms.Timer(this.components);
             this.geia = new System.Windows.Forms.Label();
             this.kalwsorisma = new System.Windows.Forms.Label();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.SuspendLayout();
             // 
             // geiaTimer
@@ -67,20 +66,11 @@
             this.kalwsorisma.Text = "Καλως ορίσατε στην εφαρμογή EcoCity";
             this.kalwsorisma.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // webBrowser1
-            // 
-            this.webBrowser1.Location = new System.Drawing.Point(807, 73);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(802, 697);
-            this.webBrowser1.TabIndex = 2;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1882, 839);
-            this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.kalwsorisma);
             this.Controls.Add(this.geia);
             this.Name = "Form1";
@@ -96,7 +86,6 @@
         private System.Windows.Forms.Timer KalwsorTimer;
         private System.Windows.Forms.Label geia;
         private System.Windows.Forms.Label kalwsorisma;
-        private System.Windows.Forms.WebBrowser webBrowser1;
     }
 }
 

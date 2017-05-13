@@ -7,3 +7,12 @@ c:\users\ssph1\onedrive\έγγραφα\visual studio 2017\Projects\Eco2City\Eco2
 c:\users\ssph1\onedrive\έγγραφα\visual studio 2017\Projects\Eco2City\Eco2City\obj\Debug\Eco2City.csproj.GenerateResource.Cache
 c:\users\ssph1\onedrive\έγγραφα\visual studio 2017\Projects\Eco2City\Eco2City\obj\Debug\Eco2City.exe
 c:\users\ssph1\onedrive\έγγραφα\visual studio 2017\Projects\Eco2City\Eco2City\obj\Debug\Eco2City.pdb
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\bin\Debug\Eco2City.exe.config
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\bin\Debug\Eco2City.exe
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\bin\Debug\Eco2City.pdb
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.csprojResolveAssemblyReference.cache
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Form1.resources
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Properties.Resources.resources
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.csproj.GenerateResource.Cache
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.exe
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.pdb
