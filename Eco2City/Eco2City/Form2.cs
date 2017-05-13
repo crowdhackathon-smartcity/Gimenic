@@ -40,11 +40,9 @@ namespace Eco2City
 
 
                         webBrowser1.Navigate(queryadress.ToString());
+                        ViewSensors.Visible = true;
 
-                        co2lab.Visible = true;
-                        humlab.Visible = true;
-                        co2Pic.Visible = true;
-                        HumPic.Visible = true;
+                       
 
                        
 
@@ -76,12 +74,9 @@ namespace Eco2City
 
 
                         webBrowser1.Navigate(queryadress.ToString());
+                        ViewSensors.Visible = true;
 
 
-                        co2lab.Visible = true;
-                        humlab.Visible = true;
-                        co2Pic.Visible = true;
-                        HumPic.Visible = true;
 
 
 
@@ -107,11 +102,7 @@ namespace Eco2City
 
                         webBrowser1.Navigate(queryadress.ToString());
 
-
-                        co2lab.Visible = true;
-                        humlab.Visible = true;
-                        co2Pic.Visible = true;
-                        HumPic.Visible = true;
+                        ViewSensors.Visible = true;
 
 
 
@@ -139,10 +130,7 @@ namespace Eco2City
 
                         webBrowser1.Navigate(queryadress.ToString());
 
-                        co2lab.Visible = true;
-                        humlab.Visible = true;
-                        co2Pic.Visible = true;
-                        HumPic.Visible = true;
+                        ViewSensors.Visible = true;
 
 
 
@@ -168,8 +156,8 @@ namespace Eco2City
 
 
                         webBrowser1.Navigate(queryadress.ToString());
+                        ViewSensors.Visible = true;
 
-                       
 
                     }
                     catch (Exception ex)
@@ -187,6 +175,54 @@ namespace Eco2City
             form1.Tag = this;
             form1.Show(this);
             Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (x == "Καλλίπολη")
+            {
+                Kallipoli kallipoli = new Kallipoli();
+                kallipoli.Tag = this;
+                kallipoli.Show(this);
+                Hide();
+            }
+
+            if (x == "Νίκαια")
+            {
+                Nikaia nikaia = new Nikaia();
+                nikaia.Tag = this;
+                nikaia.Show(this);
+                Hide();
+            }
+
+            if (x == "Ρέντη")
+            {
+                Renti renti = new Renti();
+                renti.Tag = this;
+                renti.Show(this);
+                Hide();
+            }
+
+
+            if (x == "Κορυδαλλός")
+            {
+                Koridallos koridallos = new Koridallos();
+                koridallos.Tag = this;
+                koridallos.Show(this);
+                Hide();
+            }
+
+
+            if (x == "Ελευσίνα")
+            {
+                Eleusina eleusina = new Eleusina();
+                eleusina.Tag = this;
+                eleusina.Show(this);
+                Hide();
+            }
+
+
+
         }
     }
 }

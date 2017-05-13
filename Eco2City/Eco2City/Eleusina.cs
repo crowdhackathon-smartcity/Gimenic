@@ -16,5 +16,13 @@ namespace Eco2City
         {
             InitializeComponent();
         }
+
+        private void b2_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Tag = this;
+            form2.Show(this);
+            Hide();
+        }
     }
 }

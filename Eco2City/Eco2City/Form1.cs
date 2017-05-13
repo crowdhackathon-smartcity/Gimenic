@@ -13,6 +13,7 @@ namespace Eco2City
 {
     public partial class Form1 : Form
     {
+        static public int y;
         bool fadeflag = false;
         public Form1()
         {

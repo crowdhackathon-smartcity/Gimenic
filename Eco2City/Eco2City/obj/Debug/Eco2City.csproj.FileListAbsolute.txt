@@ -18,3 +18,8 @@ C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\De
 C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.pdb
 C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Form2.resources
 C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Form3.resources
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Eleusina.resources
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Kallipoli.resources
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Koridallos.resources
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Nikaia.resources
+C:\Users\ssph1\Desktop\Όλα τα αρχεία\Gimenic\Eco2City\Eco2City\obj\Debug\Eco2City.Renti.resources

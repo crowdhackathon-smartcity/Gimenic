@@ -10,11 +10,34 @@ using System.Windows.Forms;
 
 namespace Eco2City
 {
+
     public partial class Nikaia : Form
+
     {
+        
         public Nikaia()
         {
             InitializeComponent();
         }
+
+        private void b1_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Tag = this;
+            form2.Show(this);
+            Hide();
+        }
+
+        private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
+        {
+            Form1.y = 6;
+        }
+
+        private void pictureBox2_MouseUp(object sender, MouseEventArgs e)
+        {
+            Form1.y = 7;
+        }
+
+        
     }
 }

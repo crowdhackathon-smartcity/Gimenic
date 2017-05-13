@@ -16,5 +16,33 @@ namespace Eco2City
         {
             InitializeComponent();
         }
+
+        private void b3_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Tag = this;
+            form2.Show(this);
+            Hide();
+        }
+
+        private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
+        {
+            Form1.y = 8;
+        }
+
+        private void pictureBox4_MouseUp(object sender, MouseEventArgs e)
+        {
+            Form1.y = 9;
+        }
+
+        private void pictureBox2_MouseUp(object sender, MouseEventArgs e)
+        {
+            Form1.y = 10;
+        }
+
+        private void pictureBox3_MouseUp(object sender, MouseEventArgs e)
+        {
+            Form1.y = 11;
+        }
     }
 }

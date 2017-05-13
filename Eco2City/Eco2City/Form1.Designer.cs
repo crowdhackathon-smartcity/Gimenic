@@ -47,12 +47,12 @@
             // 
             // geiaTimer
             // 
-            this.geiaTimer.Interval = 19;
+            this.geiaTimer.Interval = 5;
             this.geiaTimer.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // KalwsorTimer
             // 
-            this.KalwsorTimer.Interval = 19;
+            this.KalwsorTimer.Interval = 5;
             this.KalwsorTimer.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // geia
