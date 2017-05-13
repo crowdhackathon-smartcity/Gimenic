@@ -29,10 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.geiaTimer = new System.Windows.Forms.Timer(this.components);
             this.KalwsorTimer = new System.Windows.Forms.Timer(this.components);
             this.geia = new System.Windows.Forms.Label();
             this.kalwsorisma = new System.Windows.Forms.Label();
+            this.PicMap = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PicMap)).BeginInit();
             this.SuspendLayout();
             // 
             // geiaTimer
@@ -47,6 +50,9 @@
             // 
             // geia
             // 
+            this.geia.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.geia.AutoSize = true;
             this.geia.Font = new System.Drawing.Font("Georgia", 48F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.geia.Location = new System.Drawing.Point(775, 308);
@@ -57,25 +63,45 @@
             // 
             // kalwsorisma
             // 
+            this.kalwsorisma.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.kalwsorisma.AutoSize = true;
             this.kalwsorisma.Font = new System.Drawing.Font("Georgia", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.kalwsorisma.Location = new System.Drawing.Point(393, 317);
+            this.kalwsorisma.Location = new System.Drawing.Point(317, 308);
             this.kalwsorisma.Name = "kalwsorisma";
             this.kalwsorisma.Size = new System.Drawing.Size(1148, 72);
             this.kalwsorisma.TabIndex = 1;
             this.kalwsorisma.Text = "Καλως ορίσατε στην εφαρμογή EcoCity";
             this.kalwsorisma.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // PicMap
+            // 
+            this.PicMap.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PicMap.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PicMap.BackgroundImage")));
+            this.PicMap.Image = ((System.Drawing.Image)(resources.GetObject("PicMap.Image")));
+            this.PicMap.Location = new System.Drawing.Point(1061, 220);
+            this.PicMap.Name = "PicMap";
+            this.PicMap.Size = new System.Drawing.Size(404, 342);
+            this.PicMap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicMap.TabIndex = 2;
+            this.PicMap.TabStop = false;
+            this.PicMap.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1882, 839);
+            this.ClientSize = new System.Drawing.Size(1692, 883);
+            this.Controls.Add(this.PicMap);
             this.Controls.Add(this.kalwsorisma);
             this.Controls.Add(this.geia);
             this.Name = "Form1";
             this.Text = "EcoCity";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.PicMap)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -86,6 +112,7 @@
         private System.Windows.Forms.Timer KalwsorTimer;
         private System.Windows.Forms.Label geia;
         private System.Windows.Forms.Label kalwsorisma;
+        private System.Windows.Forms.PictureBox PicMap;
     }
 }
 

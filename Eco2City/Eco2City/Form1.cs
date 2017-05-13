@@ -42,6 +42,8 @@ namespace Eco2City
             {
                 fadeflag = false;
                 kalwsorisma.Visible = false;
+                KalwsorTimer.Stop();
+                PicMap.Visible = true;
             }
 
             }
@@ -68,5 +70,7 @@ namespace Eco2City
                 KalwsorTimer.Start();
             }
         }
+
+        
     }
 }
