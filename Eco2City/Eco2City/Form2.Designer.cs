@@ -34,6 +34,7 @@
             this.humlab = new System.Windows.Forms.Label();
             this.co2Pic = new System.Windows.Forms.PictureBox();
             this.HumPic = new System.Windows.Forms.PictureBox();
+            this.BackFromMaps = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.co2Pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HumPic)).BeginInit();
             this.SuspendLayout();
@@ -94,6 +95,7 @@
             // 
             // co2Pic
             // 
+            this.co2Pic.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.co2Pic.Location = new System.Drawing.Point(901, 648);
             this.co2Pic.Name = "co2Pic";
             this.co2Pic.Size = new System.Drawing.Size(172, 156);
@@ -103,6 +105,7 @@
             // 
             // HumPic
             // 
+            this.HumPic.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.HumPic.Location = new System.Drawing.Point(1159, 648);
             this.HumPic.Name = "HumPic";
             this.HumPic.Size = new System.Drawing.Size(172, 156);
@@ -110,11 +113,22 @@
             this.HumPic.TabStop = false;
             this.HumPic.Visible = false;
             // 
+            // BackFromMaps
+            // 
+            this.BackFromMaps.Location = new System.Drawing.Point(12, 12);
+            this.BackFromMaps.Name = "BackFromMaps";
+            this.BackFromMaps.Size = new System.Drawing.Size(45, 44);
+            this.BackFromMaps.TabIndex = 8;
+            this.BackFromMaps.Text = "<-";
+            this.BackFromMaps.UseVisualStyleBackColor = true;
+            this.BackFromMaps.Click += new System.EventHandler(this.BackFromMaps_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1572, 844);
+            this.Controls.Add(this.BackFromMaps);
             this.Controls.Add(this.HumPic);
             this.Controls.Add(this.co2Pic);
             this.Controls.Add(this.humlab);
@@ -139,5 +153,6 @@
         private System.Windows.Forms.Label humlab;
         private System.Windows.Forms.PictureBox co2Pic;
         private System.Windows.Forms.PictureBox HumPic;
+        private System.Windows.Forms.Button BackFromMaps;
     }
 }

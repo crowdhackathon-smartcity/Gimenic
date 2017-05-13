@@ -114,6 +114,7 @@
             this.PicStatistics.TabIndex = 3;
             this.PicStatistics.TabStop = false;
             this.PicStatistics.Visible = false;
+            this.PicStatistics.Click += new System.EventHandler(this.PicStatistics_Click);
             this.PicStatistics.Paint += new System.Windows.Forms.PaintEventHandler(this.PicStatistics_Paint);
             // 
             // DescrStat
