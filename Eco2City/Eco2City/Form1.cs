@@ -23,6 +23,7 @@ namespace Eco2City
             geia.ForeColor = this.BackColor;
             kalwsorisma.ForeColor = this.BackColor;
             geiaTimer.Enabled=true;
+
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -43,10 +44,13 @@ namespace Eco2City
                 fadeflag = false;
                 kalwsorisma.Visible = false;
                 KalwsorTimer.Stop();
-                this.BackColor = System.Drawing.Color.DarkSlateGray;
-               
+                
+                this.BackColor = System.Drawing.Color.Gray;
+                VStatTimer.Start();
+                VMapTimer.Start();
                 PicMap.Visible = true;
                 PicStatistics.Visible = true;
+                DescrStat.Visible = true;
             }
 
             }
@@ -74,6 +78,18 @@ namespace Eco2City
             }
         }
 
-        
+        private void PicStatistics_Paint(object sender, PaintEventArgs e)
+        {
+            ControlPaint.DrawBorder(e.Graphics, PicStatistics.ClientRectangle, Color.Red, ButtonBorderStyle.Solid);
+        }
+
+        private void PicMap_Paint(object sender, PaintEventArgs e)
+        {
+            ControlPaint.DrawBorder(e.Graphics, PicMap.ClientRectangle, Color.Red, ButtonBorderStyle.Solid);
+        }
+
+       
+
+        }
     }
-}
+

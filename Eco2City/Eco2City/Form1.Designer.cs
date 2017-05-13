@@ -37,6 +37,10 @@
             this.PicMap = new System.Windows.Forms.PictureBox();
             this.PicStatistics = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.DescrStat = new System.Windows.Forms.Label();
+            this.DMap = new System.Windows.Forms.Label();
+            this.VStatTimer = new System.Windows.Forms.Timer(this.components);
+            this.VMapTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.PicMap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicStatistics)).BeginInit();
             this.SuspendLayout();
@@ -92,6 +96,7 @@
             this.PicMap.TabIndex = 2;
             this.PicMap.TabStop = false;
             this.PicMap.Visible = false;
+            this.PicMap.Paint += new System.Windows.Forms.PaintEventHandler(this.PicMap_Paint);
             // 
             // PicStatistics
             // 
@@ -101,19 +106,60 @@
             this.PicStatistics.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PicStatistics.BackgroundImage")));
             this.PicStatistics.Image = ((System.Drawing.Image)(resources.GetObject("PicStatistics.Image")));
             this.PicStatistics.Location = new System.Drawing.Point(291, 220);
-            this.PicStatistics.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            this.PicStatistics.Margin = new System.Windows.Forms.Padding(0);
             this.PicStatistics.Name = "PicStatistics";
             this.PicStatistics.Size = new System.Drawing.Size(412, 340);
             this.PicStatistics.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PicStatistics.TabIndex = 3;
             this.PicStatistics.TabStop = false;
             this.PicStatistics.Visible = false;
+            this.PicStatistics.Paint += new System.Windows.Forms.PaintEventHandler(this.PicStatistics_Paint);
+            // 
+            // DescrStat
+            // 
+            this.DescrStat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DescrStat.AutoSize = true;
+            this.DescrStat.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.DescrStat.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.DescrStat.Location = new System.Drawing.Point(394, 161);
+            this.DescrStat.Name = "DescrStat";
+            this.DescrStat.Size = new System.Drawing.Size(181, 39);
+            this.DescrStat.TabIndex = 4;
+            this.DescrStat.Text = "View Stats";
+            this.DescrStat.Visible = false;
+            // 
+            // DMap
+            // 
+            this.DMap.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DMap.AutoSize = true;
+            this.DMap.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.DMap.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.DMap.Location = new System.Drawing.Point(1207, 161);
+            this.DMap.Name = "DMap";
+            this.DMap.Size = new System.Drawing.Size(168, 39);
+            this.DMap.TabIndex = 5;
+            this.DMap.Text = "View Map";
+            this.DMap.Visible = false;
+            // 
+            // VStatTimer
+            // 
+            
+            // 
+            // VMapTimer
+            // 
+            
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1692, 883);
+            this.Controls.Add(this.DMap);
+            this.Controls.Add(this.DescrStat);
             this.Controls.Add(this.PicStatistics);
             this.Controls.Add(this.PicMap);
             this.Controls.Add(this.kalwsorisma);
@@ -136,6 +182,10 @@
         private System.Windows.Forms.PictureBox PicMap;
         private System.Windows.Forms.PictureBox PicStatistics;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label DescrStat;
+        private System.Windows.Forms.Label DMap;
+        private System.Windows.Forms.Timer VStatTimer;
+        private System.Windows.Forms.Timer VMapTimer;
     }
 }
 
