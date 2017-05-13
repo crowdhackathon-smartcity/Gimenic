@@ -1,0 +1,9 @@
+c:\users\ssph1\onedrive\έγγραφα\visual studio 2017\Projects\Eco2City\Eco2City\bin\Debug\Eco2City.exe.config
+c:\users\ssph1\onedrive\έγγραφα\visual studio 2017\Projects\Eco2City\Eco2City\bin\Debug\Eco2City.exe
+c:\users\ssph1\onedrive\έγγραφα\visual studio 2017\Projects\Eco2City\Eco2City\bin\Debug\Eco2City.pdb
+c:\users\ssph1\onedrive\έγγραφα\visual studio 2017\Projects\Eco2City\Eco2City\obj\Debug\Eco2City.csprojResolveAssemblyReference.cache
+c:\users\ssph1\onedrive\έγγραφα\visual studio 2017\Projects\Eco2City\Eco2City\obj\Debug\Eco2City.Form1.resources
+c:\users\ssph1\onedrive\έγγραφα\visual studio 2017\Projects\Eco2City\Eco2City\obj\Debug\Eco2City.Properties.Resources.resources
+c:\users\ssph1\onedrive\έγγραφα\visual studio 2017\Projects\Eco2City\Eco2City\obj\Debug\Eco2City.csproj.GenerateResource.Cache
+c:\users\ssph1\onedrive\έγγραφα\visual studio 2017\Projects\Eco2City\Eco2City\obj\Debug\Eco2City.exe
+c:\users\ssph1\onedrive\έγγραφα\visual studio 2017\Projects\Eco2City\Eco2City\obj\Debug\Eco2City.pdb
